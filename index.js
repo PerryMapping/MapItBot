@@ -23,21 +23,6 @@ client.on('ready', () => {
 });
 
 client.on("messageCreate", (message) => {
-	if (message.content === '!ping') {
-		message.channel.send('pong');
-	}
-});
-
-client.on("messageCreate", (message) => {
-	if (message.content === '!find') {
-		let findmsg = message.content[5];
-		embFind = new MessageEmbed()
-			.setTitle(`hello`);
-		message.reply(embFind)
-	}
-});
-
-client.on("messageCreate", (message) => {
 	if (message.content.includes('!map')) {	
 		let sliceMsg = message.content.slice(4);
 		let trimMsg = sliceMsg.trim();
