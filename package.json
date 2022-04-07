@@ -1,0 +1,24 @@
+{
+  "name": "mapit",
+  "version": "1.0.0",
+  "description": "Generate map from placename",
+  "main": "index.js",
+  "scripts": {
+    "test": "marco"
+  },
+  "keywords": [
+    "mapit"
+  ],
+  "author": "PerryMapping",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/builders": "^0.12.0",
+    "@discordjs/rest": "^0.3.0",
+    "discord-api-types": "^0.31.0",
+    "discord.js": "^13.6.0",
+    "dotenv": "^16.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.12.0"
+  }
+}
