@@ -1,3 +1,5 @@
+// Discord MapItBot
+// Created by Marcus Perry April 1, 2022
 const dotenv = require('dotenv');
 const fs = require('node:fs');
 const {Client, Intents, MessageEmbed, Message} = require('discord.js');
