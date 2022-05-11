@@ -19,7 +19,7 @@ dotenv.config();
 
 
 client.on('ready', () => {
-	console.log('MapIt has been successfully initialized.  What are your orders, Captain?');
+	console.log('MapIt has been successfully initialized.');
 });
 
 client.on("messageCreate", (message) => {
