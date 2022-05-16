@@ -1,6 +1,6 @@
   "name": "mapit",
   "version": "1.0.0",
-  "description": "Generate map from placename",
+  "description": "Generate static map from placename using ArcGIS API for JavaScript geocoder",
   "main": "index.js",
   "scripts": {
     "test": "marco"
